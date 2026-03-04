@@ -1,7 +1,7 @@
 // Supabase API integration for Magoye Family Archives
 // Replace with your Supabase project URL and anon/public key
-const SUPABASE_URL = 'https://your-project.supabase.co';
-const SUPABASE_KEY = '@6Foodies24';
+const SUPABASE_URL = 'https://magoye-family-website.vercel.app/';
+const SUPABASE_KEY = '@6Foodies';
 
 // Helper: fetch wrapper for Supabase REST API
 async function supabaseFetch(table, method = 'GET', body = null, id = null) {
